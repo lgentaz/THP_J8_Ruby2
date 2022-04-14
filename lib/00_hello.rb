@@ -1,7 +1,3 @@
-def say_hello(first_name)
-	puts "Hello, #{first_name} !"
-end
-
 def ask_first_name
 	puts "Quel est ton prénom?"
 	puts "> "
@@ -9,9 +5,10 @@ def ask_first_name
 	return first_name
 end
 
-def prompt
-	first_name = ask_first_name
-	say_hello(first_name)
+def say_hello()
+	first_name = ask_first_name()
+	puts "Hello, #{first_name} !"
 end
 
-prompt
+say_hello()
+say_hello(luloh)
